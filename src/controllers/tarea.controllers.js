@@ -45,6 +45,9 @@ const readTarea = async (req, res) =>{
     }
 }
 
+const updateTarea = async (req, res) => {
+    
+}
 
 
 module.exports = {
