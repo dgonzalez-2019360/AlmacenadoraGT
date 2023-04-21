@@ -46,7 +46,13 @@ const readTarea = async (req, res) =>{
 }
 
 const updateTarea = async (req, res) => {
+    const id = req.params.id;
     
+    try{
+        
+    }catch(err){
+        throw new Error(err);
+    }
 }
 
 
